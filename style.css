@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #11db6c;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #11db6c;
+  color: #ffffff;
+}
+
+a:not(:last-child) {
+  margin-right: 8px;
+}
