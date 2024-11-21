@@ -8,17 +8,21 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
-  color: #333;
+  color: #ffffff;
   line-height: 1.6;
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
+.logo img{
+  width: 18%;
+}
+
 .container {
   max-width: 800px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,7 +30,7 @@ body {
 
 h1, h3 {
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -51,14 +55,14 @@ li {
 
 a {
   text-decoration: none;
-  color: #11db6c;
+  color: #ffffff;
   padding: 8px 12px;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 a:hover {
-  background-color: #11db6c;
+  background-color: #1f1e1e;
   color: #ffffff;
 }
 
